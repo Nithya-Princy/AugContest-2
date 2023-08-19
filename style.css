@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url("https://img.freepik.com/premium-vector/public-library-interior-stack-book-bookshelf-flat_7081-838.jpg?w=996")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:  rgba(43, 183, 164, 1.0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 10px 10px 60px;
+}
+
+.Library{
+    font-size: 40px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font weight: 700;
+}
+.navbar{
+    width= 100vw;
+    
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+#books{
+    text-decoration: none;
+    align-content: center;
+    padding-left:250px;
+    margin:50px 50px 50px 50px;
+}
+.BT{
+    border-collapse:collapse;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    align-content: center;
+    background-color: rgba(241, 244, 245, 0.4);
+    box-shadow: 2px 2px 15px;
+}
+td{
+    text-align: center;
+    font-family:cursive;
+    font-weight: 300;
+    font-size: 20px;
+    border-collapse:collapse;
+}
+#NestedTable{
+    font-style: italic;
+    border-collapse:collapse;
+}
+th{
+    text-align: center;
+    font-family:cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color:
+}
+#Heading{
+    text-align: center;
+    width:50px;
+}
+div.main{
+    padding-left:250px;
+    padding-right:250px;
+    margin:50px 50px 50px 50px;
+}
+h2{
+    text-align: center;
+    padding:20px;
+    font-family: cursive;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    font-size:18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color:#fff;
+}
+form#register{
+    margin:40px;
+}
+label{
+    font-family:cursive;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 760px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding:7px;
+    background-color:#fff;
+    box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+    width:760px;
+    padding:7px;
+    font-size: 16px;
+    font-family:600;
+    border:none;
+    border-radius: 3px;
+    background-color: black;
+    color:#fff;
+    cursor:pointer;
+    border:black;
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+#abt{
+    font-family:cursive;
+    font-size: 18px;
+    font-style: italic;
+}
